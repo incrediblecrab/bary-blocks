@@ -40,20 +40,27 @@ Make the warrant visible when the inference needs it: the reason these grounds s
 
 ## Write
 
-- Put the research question, contribution or supported finding where the genre expects it. Do not manufacture an arguable verdict when the work has not produced one.
-- Answer the so-what in the introduction rather than saving it for a conclusion nobody reaches. Say what is different if you are right.
-- State the warrant. When you move from evidence to claim, name the principle that licenses the move — the disciplinary assumption, the methodological commitment, the definition you are relying on. Supply it wherever the move from evidence to claim would otherwise be left to the reader to reconstruct.
-- Put sources in conversation with each other. Organize by question rather than by author, and say where they part and why. Two scholars who disagree because they measure different things is a paragraph. Two scholars summarized in sequence is a list.
-- Frame every quotation and then interpret it. A quotation is evidence for your sentence, never a substitute for it. If the interpretation only restates the quotation in other words, cut one of them. Quote for the wording and paraphrase for the content.
-- Write the method, the archive path or the coding decisions so another person could retrace the route and see how you arrived. Past tense, with the choices attributed to whoever made them.
-- Report what you found before interpreting it, and keep the two separable, so a reader can accept your evidence and reject your reading of it.
-- Mark genuine uncertainty and, where known, explain what evidence could reduce it. Some uncertainty cannot be resolved from accessible records; do not invent an archive, experiment or resolution condition.
-- Name the limitation that would most worry a hostile reviewer, in the terms that reviewer would use, and state it before the reviewer gets there.
-- Address genuine objections in their strongest relevant form. A study, description or settled fact does not require a fabricated opponent.
-- Attribute choices to the actual author or team and follow the venue's person/voice conventions. Use *I coded the transcripts* only when the supplied author actually did that work. Keep a useful passive; never invent personal research to sound accountable.
-- Read the draft once as the reviewer who wants it to be wrong, and fix what that reading turns up before anybody else sees it.
-- Give sections clear jobs and an order that serves the argument. Independent analyses can remain independent; do not force transitions or one universal dissertation structure.
-- A term the field genuinely needs is not over-reach, however forbidding it looks on the page. The over-reach at this tier is a claim of novelty or reach the work does not support.
+Put the research question, contribution or supported finding where the genre expects it. Do not manufacture an arguable verdict when the work has not produced one. Answer the so-what in the introduction rather than saving it for a conclusion nobody reaches. Say what is different if you are right.
+
+State the warrant. When you move from evidence to claim, name the principle that licenses the move — the disciplinary assumption, the methodological commitment, the definition you are relying on. Supply it wherever the move from evidence to claim would otherwise be left to the reader to reconstruct.
+
+Put sources in conversation with each other. Organize by question rather than by author, and say where they part and why. Two scholars who disagree because they measure different things is a paragraph. Two scholars summarized in sequence is a list.
+
+Frame every quotation and then interpret it. A quotation is evidence for your sentence, never a substitute for it. If the interpretation only restates the quotation in other words, cut one of them. Quote for the wording and paraphrase for the content.
+
+Write the method, the archive path or the coding decisions so another person could retrace the route and see how you arrived. Past tense, with the choices attributed to whoever made them. Report what you found before interpreting it, and keep the two separable, so a reader can accept your evidence and reject your reading of it.
+
+Mark genuine uncertainty and, where known, explain what evidence could reduce it. Some uncertainty cannot be resolved from accessible records; do not invent an archive, experiment or resolution condition.
+
+Name the limitation that would most worry a hostile reviewer, in the terms that reviewer would use, and state it before the reviewer gets there. Address genuine objections in their strongest relevant form. A study, description or settled fact does not require a fabricated opponent.
+
+Attribute choices to the actual author or team and follow the venue's person/voice conventions. Use *I coded the transcripts* only when the supplied author actually did that work. Keep a useful passive; never invent personal research to sound accountable.
+
+Read the draft once as the reviewer who wants it to be wrong, and fix what that reading turns up before anybody else sees it.
+
+Give sections clear jobs and an order that serves the argument. Independent analyses can remain independent; do not force transitions or one universal dissertation structure.
+
+A term the field genuinely needs is not over-reach, however forbidding it looks on the page. The over-reach at this tier is a claim of novelty or reach the work does not support.
 
 ## Mechanics
 

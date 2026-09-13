@@ -31,7 +31,7 @@ A press release is an interested party's account, not independent verification. 
 - A quotation whose speaker or source is unclear.
 - Documents lacking material source context; do not invent authorship, dates or acquisition details.
 
-### Mechanics
+### Style
 
 - Chicago or house mechanics in AP copy: serial comma in a simple series, italic composition titles, courtesy titles on second reference, spelled-out numbers above nine.
 - Postal abbreviations in datelines. AP state forms are not postal codes.

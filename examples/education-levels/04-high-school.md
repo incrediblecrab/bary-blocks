@@ -33,16 +33,19 @@ Keep the requested genre and voice. More formal prose is not automatically more 
 
 ## Write
 
-- Assume the reader follows complex plots, multiple perspectives, and discipline terms when cued.
-- Match the requested formality. Use precise nouns and clear connections, preserving purposeful voice and a passive whose focus is useful.
-- Define a key concept once, then use the term.
-- State the warrant. Name the cause, contrast, condition, uncertainty, or significance that ties the evidence to the claim.
-- Address genuine competing views fairly when relevant; do not manufacture opposition to a settled fact.
-- Calibrate the stance to the evidence and the task. A supported conclusion need not occupy a midpoint between opposing views.
-- Say enough about a source that a reader could judge whether to trust it: who, role, why they would know.
-- Match evidence to what this particular audience needs convinced.
-- Let paragraph shape follow its job. Keep useful regularity; variation is not an authorship test.
-- Write above grade level whenever you can define the hard word and it earns its place. Cut it when it is there for effect.
+Assume the reader follows complex plots, multiple perspectives, and discipline terms when cued. Match the requested formality. Use precise nouns and clear connections, preserving purposeful voice and a passive whose focus is useful.
+
+Define a key concept once, then use the term.
+
+State the warrant. Name the cause, contrast, condition, uncertainty, or significance that ties the evidence to the claim.
+
+Address genuine competing views fairly when relevant; do not manufacture opposition to a settled fact. Calibrate the stance to the evidence and the task. A supported conclusion need not occupy a midpoint between opposing views.
+
+Say enough about a source that a reader could judge whether to trust it: who, role, why they would know. Match evidence to what this particular audience needs convinced.
+
+Let paragraph shape follow its job. Keep useful regularity; variation is not an authorship test.
+
+Write above grade level whenever you can define the hard word and it earns its place. Cut it when it is there for effect.
 
 ## Mechanics
 

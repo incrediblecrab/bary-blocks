@@ -28,15 +28,15 @@ WIDA distinguishes K, 1 and 2-3 in its classroom framework. This broad house pre
 
 ## Write
 
-- Keep topics concrete: people, places, objects, actions, observed events.
-- Name the topic early, then repeat or rename it so the thread stays visible.
-- Prefer direct sentences and explicit connections. Keep a useful dependent clause when the relationship remains clear.
-- Name a known actor when needed. A clear passive is better than an invented actor.
-- Anchor every new word to a label, an example, a step, or something the reader can see or do.
-- For an opinion: state the view and a genuine reason. Do not add a repetitive conclusion or a factual claim to dignify a preference.
-- For a recount: put events in the order they happened and mark the order with first, then, next, last.
-- For a description: name the thing, then give its parts or qualities.
-- Keep a big word if you can say what it means. Drop one you cannot.
+Keep topics concrete: people, places, objects, actions, observed events. Name the topic early, then repeat or rename it so the thread stays visible.
+
+Prefer direct sentences and explicit connections. Keep a useful dependent clause when the relationship remains clear. Name a known actor when needed; a clear passive is better than an invented actor.
+
+Anchor every new word to a label, an example, a step, or something the reader can see or do.
+
+For an opinion, state the view and a genuine reason. Do not add a repetitive conclusion or a factual claim to dignify a preference. For a recount, put events in the order they happened and mark the order with first, then, next, last. For a description, name the thing, then give its parts or qualities.
+
+Keep a big word if you can say what it means. Drop one you cannot.
 
 ## Mechanics
 

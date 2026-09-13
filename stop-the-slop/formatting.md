@@ -30,7 +30,7 @@ A reference list, such as a taxonomy, an index or a glossary whose items are dis
 ### Markup problems
 
 - **Heading capitalization inconsistent with the selected venue.**
-- **A document starting at `###`,** skipping the level above.
+- **A document starting at `###`**, skipping the level above.
 - **Horizontal rules before every heading.**
 - **Emoji as bullet markers or heading decoration.**
 - **Unicode standing in for markup.** Mathematical alphabets used to fake bold or italic text. A meaningful mathematical symbol is not decorative markup.
@@ -39,7 +39,7 @@ A reference list, such as a taxonomy, an index or a glossary whose items are dis
 
 ### Punctuation
 
-- **Em dash as default connector,** where a different mark would make the relation clearer. Spacing follows the selected style.
+- **Em dash as default connector**, where a different mark would make the relation clearer. Spacing follows the selected style.
 - **Parentheses holding what the sentence could not fit.** The reach for them signals a contorted sentence, not a need for brackets.
 - **A colon stacked with a dash.**
 - **Semicolons joining independent clauses** that wanted to be two sentences.

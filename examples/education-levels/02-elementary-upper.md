@@ -28,15 +28,15 @@
 
 ## Write
 
-- Check which vocabulary the task and reader make familiar. Define unfamiliar terms in context, then reuse them consistently.
-- Give each paragraph one job: set up, describe, explain, prove, close.
-- Lead with the concrete noun. Name the abstraction after the example, not before it.
-- Use connectors that show the actual relationship: later, because, unlike, this shows, as a result.
-- For inform and explain, group facts by kind, by part and whole, by sequence, or by cause.
-- For argument, name the claim, give reasons, and tie each reason to its evidence in a sentence of its own.
-- For narrative, show goals and feelings through action, dialogue, and sensory detail rather than announcing them.
-- Keep useful dependent clauses when the connections are clear. Split a sentence to improve understanding, not to satisfy a clause quota.
-- Big words are fine here as long as you can say what they mean in your own words. If you cannot, use a smaller one.
+Check which vocabulary the task and reader make familiar. Define unfamiliar terms in context, then reuse them consistently.
+
+Give each paragraph one job: set up, describe, explain, prove, close. Lead with the concrete noun, naming the abstraction after the example rather than before it. Use connectors that show the actual relationship: later, because, unlike, this shows, as a result.
+
+For inform and explain, group facts by kind, by part and whole, by sequence, or by cause. For argument, name the claim, give reasons, and tie each reason to its evidence in a sentence of its own. For narrative, show goals and feelings through action, dialogue, and sensory detail rather than announcing them.
+
+Keep useful dependent clauses when the connections are clear. Split a sentence to improve understanding, not to satisfy a clause quota.
+
+Big words are fine here as long as you can say what they mean in your own words. If you cannot, use a smaller one.
 
 ## Mechanics
 

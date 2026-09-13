@@ -30,17 +30,15 @@
 
 ## Write
 
-- Assume the reader can track theme, systems, data, and competing views when the text signposts them.
-- Define new academic terms in context, then reuse them without redefining.
-- Keep sentences direct. Add a dependent clause only where it buys precision.
-- Make relationships explicit: because, however, as a result, in contrast.
-- For inform and explain, group facts by class, by part and whole, by sequence, or by cause.
-- For argument, state the claim and address relevant competing explanations or objections fairly. A summary or an established fact does not need an invented opposing side.
-- Identify a source with the details that matter here. Explain relevant credibility questions accessibly; evaluating a source is not reserved for an older reader.
-- Tell a primary source from a secondary one and say which you are using.
-- For narrative, orient the reader, control pace, and close the arc.
-- Own the sentence. One clear qualifier beats three stacked ones.
-- Reaching above grade level is fine when you control it. If you cannot define the term, or say why the sentence needs that clause, cut it.
+Assume the reader can track theme, systems, data, and competing views when the text signposts them. Define new academic terms in context, then reuse them without redefining.
+
+Keep sentences direct. Add a dependent clause only where it buys precision. Make relationships explicit: because, however, as a result, in contrast.
+
+For inform and explain, group facts by class, by part and whole, by sequence, or by cause. For argument, state the claim and address relevant competing explanations or objections fairly. A summary or an established fact does not need an invented opposing side. For narrative, orient the reader, control pace, and close the arc.
+
+Identify a source with the details that matter here. Explain relevant credibility questions accessibly; evaluating a source is not reserved for an older reader. Tell a primary source from a secondary one and say which you are using.
+
+Own the sentence. One clear qualifier beats three stacked ones. Reaching above grade level is fine when you control it. If you cannot define the term, or say why the sentence needs that clause, cut it.
 
 ## Mechanics
 

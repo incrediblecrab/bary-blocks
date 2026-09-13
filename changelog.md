@@ -9,6 +9,7 @@ date it last changed.
 | --- | --- | --- | --- |
 | [Barycenter](general/!bary.md) | Task-contract alignment, evidence tracking, selective delegation, safe supervision, 20-minute learning reviews, learned optimization, and completion. | 1.0.0 | September 13, 2026 |
 | [Think LEGO](general/!think-LEGO.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus... | 1.0.0 | September 13, 2026 |
+| [Colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. | 1.0.0 | September 13, 2026 |
 | [Sufficiency](general/sufficiency.md) | Input-to-output focus, minimum complete artifacts, actionable requirements, and no unsolicited extras. | 1.0.0 | September 13, 2026 |
 | [Trust but verify](general/tbv.md) | Date- and version-aware research, primary evidence, bounded retrieval, and verification of actual outcomes. | 1.0.0 | September 13, 2026 |
 
@@ -19,7 +20,7 @@ date it last changed.
 | [Editorial](stop-the-slop/!editorial.md) | The consolidated block: operation contract, factual fidelity, direct prose, empty-pattern removal, structure, and editing without overcorrection. | 1.0.0 | September 13, 2026 |
 | [Accuracy](stop-the-slop/accuracy.md) | Claims without support, citations that cannot be checked, confidence outrunning evidence, and numbers that mislead. | 1.4.0 | September 13, 2026 |
 | [Anti-Slop](stop-the-slop/anti-slop.md) | Inflation, evasion, reflex, churn, cliche, and the restraint that keeps their removal from becoming its own formula. | 1.6.0 | September 13, 2026 |
-| [Formatting](stop-the-slop/formatting.md) | Structure standing in for content, markup tells, punctuation, and chat register. | 1.5.0 | September 13, 2026 |
+| [Formatting](stop-the-slop/formatting.md) | Structure standing in for content, markup tells, punctuation, and chat register. | 1.5.1 | September 13, 2026 |
 | [Voice](stop-the-slop/voice.md) | Word choice, hidden agency, people reduced to categories, and the cadence of sentences and paragraphs. | 1.5.0 | September 13, 2026 |
 
 ## Academic proofs
@@ -40,7 +41,7 @@ date it last changed.
 | [Domain: Marketing](examples/domains/marketing.md) | Copy that sells. Landing pages, product descriptions, campaigns, press releases. | 2.3.0 | September 13, 2026 |
 | [Domain: Medical](examples/domains/medical.md) | Clinical documentation, research reporting, patient education and public guidance. | 2.2.1 | September 13, 2026 |
 | [Domain: Non-Fiction](examples/domains/non-fiction.md) | Long-form true prose. The essay, memoir, biography and history, criticism, literary journalism. | 1.2.0 | September 13, 2026 |
-| [Domain: Press](examples/domains/press.md) | Reporting for publication. AP mechanics by default, with visible attribution appropriate to the outlet. | 2.2.1 | September 13, 2026 |
+| [Domain: Press](examples/domains/press.md) | Reporting for publication. AP mechanics by default, with visible attribution appropriate to the outlet. | 2.2.2 | September 13, 2026 |
 | [Domain: Technical](examples/domains/technical.md) | Documentation, references, guides, READMEs, changelogs. | 2.3.0 | September 13, 2026 |
 
 ## Interface
@@ -57,13 +58,13 @@ date it last changed.
 
 | Block | Purpose | Version | Last edit |
 | --- | --- | --- | --- |
-| [Education: Lower Elementary](examples/education-levels/01-elementary-lower.md) | An optional classroom preset for kindergarten through grade 3. | 1.3.0 | September 13, 2026 |
-| [Education: Upper Elementary](examples/education-levels/02-elementary-upper.md) | An optional classroom preset for grades 4 and 5, adjusted to the reader's actual familiarity and support needs. | 1.3.0 | September 13, 2026 |
-| [Education: Middle School](examples/education-levels/03-middle-school.md) | An optional classroom preset for grades 6 through 8. Useful practice includes tracing sources, connecting evidence to claims and responding to genuine competing views. | 1.2.1 | September 13, 2026 |
-| [Education: High School](examples/education-levels/04-high-school.md) | An optional classroom preset for grades 9 through 12. A useful practice focus is the warrant: explaining why evidence supports a claim. | 1.2.1 | September 13, 2026 |
-| [Education: Undergraduate](examples/education-levels/05-undergraduate.md) | An optional preset for writing or reviewing undergraduate assignments. | 1.3.0 | September 13, 2026 |
-| [Education: Graduate](examples/education-levels/06-graduate.md) | An optional preset for an explicitly requested master's thesis, research report or related scholarly task. | 1.3.1 | September 13, 2026 |
-| [Education: Post-Graduate](examples/education-levels/07-post-graduate.md) | An optional preset for an explicitly requested dissertation, scholarly article or comparable research-writing task. | 1.2.0 | September 13, 2026 |
+| [Education: Lower Elementary](examples/education-levels/01-elementary-lower.md) | An optional classroom preset for kindergarten through grade 3. | 1.3.1 | September 13, 2026 |
+| [Education: Upper Elementary](examples/education-levels/02-elementary-upper.md) | An optional classroom preset for grades 4 and 5, adjusted to the reader's actual familiarity and support needs. | 1.3.1 | September 13, 2026 |
+| [Education: Middle School](examples/education-levels/03-middle-school.md) | An optional classroom preset for grades 6 through 8. Useful practice includes tracing sources, connecting evidence to claims and responding to genuine competing views. | 1.2.2 | September 13, 2026 |
+| [Education: High School](examples/education-levels/04-high-school.md) | An optional classroom preset for grades 9 through 12. A useful practice focus is the warrant: explaining why evidence supports a claim. | 1.2.2 | September 13, 2026 |
+| [Education: Undergraduate](examples/education-levels/05-undergraduate.md) | An optional preset for writing or reviewing undergraduate assignments. | 1.3.1 | September 13, 2026 |
+| [Education: Graduate](examples/education-levels/06-graduate.md) | An optional preset for an explicitly requested master's thesis, research report or related scholarly task. | 1.3.2 | September 13, 2026 |
+| [Education: Post-Graduate](examples/education-levels/07-post-graduate.md) | An optional preset for an explicitly requested dissertation, scholarly article or comparable research-writing task. | 1.2.1 | September 13, 2026 |
 
 ## Citations
 

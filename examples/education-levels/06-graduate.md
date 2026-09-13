@@ -32,18 +32,19 @@ For a research introduction, one useful house outline establishes the topic, ide
 
 ## Write
 
-- For research writing, locate the question and the work's response in the literature actually reviewed. A synthesis, replication or null result can be a contribution; do not invent novelty.
-- Support a claimed gap with the supplied review. A limited reading list does not establish that nobody has studied a topic.
-- State the contribution or research question clearly enough for the intended audience to check.
-- Make evidence-handling visible enough that a reader can evaluate the claim rather than trust it.
-- Group sources by position or method, not by publication order. Show where they agree and where they split.
-- Calibrate hedges to what the design actually supports. Reserve boosters for claims your evidence carries directly; hedge inference that goes past it.
-- Name the limitation that would most worry a critical reviewer, and address it before being asked.
-- Scope claims to the population, sample, or case actually studied, and say what would have to be true to generalize further.
-- Use theory as an instrument. Name the work it performs here.
-- Report a newsworthy false claim as false rather than as one side of a legitimate debate.
-- Keep a hard term, a long sentence, or a dense noun group where it does work no plainer form can do. The test is whether you could defend the choice, not whether the prose is hard.
-- Make the boldest claim your evidence will carry, and no bolder.
+For research writing, locate the question and the work's response in the literature actually reviewed. A synthesis, replication or null result can be a contribution; do not invent novelty. Support a claimed gap with the supplied review. A limited reading list does not establish that nobody has studied a topic.
+
+State the contribution or research question clearly enough for the intended audience to check. Make evidence-handling visible enough that a reader can evaluate the claim rather than trust it.
+
+Group sources by position or method, not by publication order. Show where they agree and where they split.
+
+Calibrate hedges to what the design actually supports. Reserve boosters for claims your evidence carries directly; hedge inference that goes past it.
+
+Name the limitation that would most worry a critical reviewer, and address it before being asked. Scope claims to the population, sample, or case actually studied, and say what would have to be true to generalize further.
+
+Use theory as an instrument. Name the work it performs here. Report a newsworthy false claim as false rather than as one side of a legitimate debate.
+
+Keep a hard term, a long sentence, or a dense noun group where it does work no plainer form can do. The test is whether you could defend the choice, not whether the prose is hard. Make the boldest claim your evidence will carry, and no bolder.
 
 ## Mechanics
 

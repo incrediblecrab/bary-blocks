@@ -38,19 +38,19 @@ WIDA's K–12 framework does not validate this preset. The academic-task guidanc
 
 ## Write
 
-- For an argumentative assignment, make a defensible claim and explain why it matters. A requested summary can remain a summary; do not invent a dispute to make it look analytical.
-- Establish the task's motive or question early. A tension, gap or problem can help, but a compulsory opposition formula can misrepresent the sources.
-- Put sources in conversation. Say how they relate — agree, extend, conflict — before saying what you think.
-- Analyze the evidence you quote. The quotation begins the paragraph's work rather than ending it.
-- Address a real counterargument or complicating case when relevant. Do not manufacture one to satisfy a quota.
-- Follow the genre your discipline actually uses, and signal that you know which one you are in.
-- Use a technical term when it does work plain wording cannot. Otherwise use plain wording.
-- Reserve hedges for claims where evidence is genuinely limited. State well-supported points plainly.
-- Keep sentence complexity proportional to idea complexity. A simple claim earns a simple sentence.
-- Interrogate a source, do not just cite it: who funded it, how it was collected, what its sample leaves out, whether correlation is being sold as causation.
-- Name the limits of your own argument before a reader has to.
-- Close by stating what the essay established, not by re-summarizing.
-- Keep the hard term when you can define it and it does work no plain phrase can. Drop it when it is only difficulty for its own sake.
+For an argumentative assignment, make a defensible claim and explain why it matters. A requested summary can remain a summary; do not invent a dispute to make it look analytical. Establish the task's motive or question early. A tension, gap or problem can help, but a compulsory opposition formula can misrepresent the sources.
+
+Put sources in conversation. Say how they relate — agree, extend, conflict — before saying what you think. Analyze the evidence you quote; the quotation begins the paragraph's work rather than ending it. Address a real counterargument or complicating case when relevant, and do not manufacture one to satisfy a quota.
+
+Follow the genre your discipline actually uses, and signal that you know which one you are in. Use a technical term when it does work plain wording cannot. Otherwise use plain wording.
+
+Reserve hedges for claims where evidence is genuinely limited. State well-supported points plainly. Keep sentence complexity proportional to idea complexity; a simple claim earns a simple sentence.
+
+Interrogate a source, do not just cite it: who funded it, how it was collected, what its sample leaves out, whether correlation is being sold as causation.
+
+Name the limits of your own argument before a reader has to. Close by stating what the essay established, not by re-summarizing.
+
+Keep the hard term when you can define it and it does work no plain phrase can. Drop it when it is only difficulty for its own sake.
 
 ## Mechanics
 
