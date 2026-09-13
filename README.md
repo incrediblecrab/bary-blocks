@@ -21,7 +21,7 @@ Specialist guidance for managing work, evidence, and system design. These deepen
 | Block | Use |
 | --- | --- |
 | [barycenter](general/!bary.md) | Task-contract alignment, evidence tracking, selective delegation, safe supervision, 20-minute learning reviews, learned optimization, and completion. |
-| [think LEGO](general/!think-LEGO.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus deliberate redundancy, single definition per value, code that reads in the order it runs, failure paths, host-enforced trust boundaries, and reversible change. |
+| [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus deliberate redundancy, single definition per value, code that reads in the order it runs, failure paths, host-enforced trust boundaries, and reversible change. |
 | [colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. |
 | [trust but verify](general/tbv.md) | Date- and version-aware research, primary evidence, bounded retrieval, and verification of actual outcomes. |
 | [sufficiency](general/sufficiency.md) | Input-to-output focus, minimum complete artifacts, actionable requirements, and no unsolicited extras. |
@@ -85,6 +85,6 @@ Examples:
 - `mathematics` + `tbv`: conjectures, literature, and novelty claims.
 - `formal-proof` + `tbv`: proof-assistant work with explicit acceptance and trust requirements.
 - `mathematics` + `computational-search` + `tbv`: search for constructions or bounds and check the resulting artifacts.
-- `think-LEGO` + `bary`: design a multi-part system, then build it.
+- `think-lego` + `bary`: design a multi-part system, then build it.
 
 Use `bary` when the task needs planning, delegation, or sustained recovery. Give workers only their task context and applicable blocks, not the coordinator's entire prompt. A single theorem, lookup, or small edit does not need a team.
