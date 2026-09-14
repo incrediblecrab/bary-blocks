@@ -2,7 +2,7 @@
 
 Reusable Markdown instructions for implementation, writing, and research. A model consumes them; a practitioner pastes the ones a task needs alongside their own prompt. Copy any block on its own or combine only the blocks the task needs. Every block includes the same working contract, so evidence, engineering, and writing standards do not depend on selecting `bary`, `tbv`, or any single specialist block.
 
-The twelve library blocks live in `general/`, `stop-the-slop/`, and `examples/academic-proofs/`. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
+The thirteen library blocks live in `general/`, `stop-the-slop/`, and `examples/academic-proofs/`. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
 
 ## Shared contract
 
