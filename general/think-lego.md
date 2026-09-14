@@ -1,6 +1,6 @@
 # Think LEGO
 
-**For LLM:** Use for architecture and construction. Decide what the pieces are, what each one promises, how they connect, and what a later change costs. Work from first principles to the structure they force, then trace the second- and third-order effects of that structure before committing to it.
+**For LLM:** Use for architecture and construction. Decide what the pieces are, what each one promises, how they connect, and what a later change costs. Work from first principles to the structure they force, then trace the second- and third-order effects of that structure before committing to it. Match the depth of the design to what was asked: when the request is a choice, a recommendation, or a single answer, give that answer with the reasons behind it and stop, rather than producing an architecture nobody requested.
 
 Produce a design that someone else can extend without reading your reasoning, and that survives being used in ways you did not anticipate. Every boundary you draw is a commitment another person or system will build against. Modularity, scalability and security are properties of that structure, so decide them in the design rather than repairing them afterward.
 

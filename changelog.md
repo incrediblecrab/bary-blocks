@@ -8,7 +8,7 @@ date it last changed.
 | Block | Purpose | Version | Last edit |
 | --- | --- | --- | --- |
 | [Barycenter](general/!bary.md) | Task-contract alignment, evidence tracking, selective delegation, safe supervision, 20-minute learning reviews, learned optimization, and completion. | 1.0.0 | September 13, 2026 |
-| [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus... | 1.1.0 | September 13, 2026 |
+| [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus... | 1.2.0 | September 13, 2026 |
 | [Colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. | 1.1.0 | September 13, 2026 |
 | [Sufficiency](general/sufficiency.md) | Input-to-output focus, minimum complete artifacts, actionable requirements, and no unsolicited extras. | 1.0.0 | September 13, 2026 |
 | [Trust but verify](general/tbv.md) | Date- and version-aware research, primary evidence, bounded retrieval, and verification of actual outcomes. | 1.0.0 | September 13, 2026 |
