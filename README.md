@@ -1,8 +1,8 @@
 # Bary blocks
 
-Reusable Markdown instructions for implementation, writing, and research. A model consumes them; a practitioner pastes the ones a task needs alongside their own prompt. Copy any block on its own or combine only the blocks the task needs. Every block includes the same working contract, so evidence, engineering, and writing standards do not depend on selecting `bary`, `tbv`, or any single specialist block.
+Reusable Markdown instructions for implementation, writing, and research. A model consumes them; a practitioner pastes the ones a task needs alongside their own prompt. Copy any block on its own or combine only the blocks the task needs. The specialist blocks include the same working contract, so evidence, engineering, and writing standards do not depend on selecting `bary` or any single one. `todo` carries a condensed version of the same standards in its own instruction list.
 
-The thirteen library blocks live in `general/`, `stop-the-slop/`, and `examples/academic-proofs/`. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
+The twelve library blocks live in `general/`, `stop-the-slop/`, and `examples/academic-proofs/`. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
 
 ## Shared contract
 
@@ -23,8 +23,7 @@ Specialist guidance for managing work, evidence, and system design. These deepen
 | [barycenter](general/!bary.md) | Task-contract alignment, evidence tracking, selective delegation, safe supervision, 20-minute learning reviews, learned optimization, and completion. |
 | [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus deliberate redundancy, single definition per value, code that reads in the order it runs, failure paths, host-enforced trust boundaries, and reversible change. |
 | [colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. |
-| [trust but verify](general/tbv.md) | Date- and version-aware research, primary evidence, bounded retrieval, and verification of actual outcomes. |
-| [sufficiency](general/sufficiency.md) | Input-to-output focus, minimum complete artifacts, actionable requirements, and no unsolicited extras. |
+| [todo](general/!todo-template.md) | Scope a task before work starts: objective, inputs, deliverable, acceptance criteria, and filing. Carries date- and version-aware research, primary evidence, bounded retrieval, verification of actual outcomes, and minimum complete artifacts. |
 
 ## Stop the slop
 
@@ -76,15 +75,13 @@ Apply the shared contract to all work, select relevant specialist guidance, and 
 
 Examples:
 
-- `editorial` + `tbv`: source-backed writing.
-- `sufficiency` + `tbv`: a direct, evidence-backed answer or mapping without an explanatory report.
-- `sufficiency` + `editorial`: a concise, actionable document without ornamental prose or extra sections.
-- `bary` + `tbv`: autonomous implementation with checked results.
-- `bary` + `editorial` + `tbv`: a multi-step writing project with verified claims.
+- `editorial` + `todo`: source-backed writing without ornamental prose or extra sections.
+- `bary` + `todo`: autonomous implementation with checked results.
+- `bary` + `editorial` + `todo`: a multi-step writing project with verified claims.
 - `editorial` + `voice` + `examples/domains/press.md`: a news-style draft with full diagnostics.
-- `mathematics` + `tbv`: conjectures, literature, and novelty claims.
-- `formal-proof` + `tbv`: proof-assistant work with explicit acceptance and trust requirements.
-- `mathematics` + `computational-search` + `tbv`: search for constructions or bounds and check the resulting artifacts.
+- `mathematics` + `todo`: conjectures, literature, and novelty claims.
+- `formal-proof` + `todo`: proof-assistant work with explicit acceptance and trust requirements.
+- `mathematics` + `computational-search` + `todo`: search for constructions or bounds and check the resulting artifacts.
 - `think-lego` + `bary`: design a multi-part system, then build it.
 
 Use `bary` when the task needs planning, delegation, or sustained recovery. Give workers only their task context and applicable blocks, not the coordinator's entire prompt. A single theorem, lookup, or small edit does not need a team.
