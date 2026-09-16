@@ -24,7 +24,7 @@ Specialist guidance for managing work, evidence, and system design. These deepen
 | [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus deliberate redundancy, single definition per value, code that reads in the order it runs, failure paths, host-enforced trust boundaries, and reversible change. |
 | [colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. |
 | [todo](general/!todo.md) | Scope a task before work starts: objective, inputs, deliverable, acceptance criteria, and filing. Carries date- and version-aware research, primary evidence, bounded retrieval, verification of actual outcomes, and minimum complete artifacts. |
-| [git-repo](general/git-repo.md) | Commit and sync the checked-out branch to its own upstream, adding no workflows or automation along the way: deliberate staging, secrets kept out, messages in the repository's own convention, integration without rewriting published history, and a verified push. |
+| [git-repo](general/git-repo.md) | Commit and push the branch you are on; add no workflows or automation. |
 
 ## Stop the slop
 
