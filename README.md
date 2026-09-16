@@ -2,7 +2,7 @@
 
 Reusable Markdown instructions for implementation, writing, and research. A model consumes them; a practitioner pastes the ones a task needs alongside their own prompt. Copy any block on its own or combine only the blocks the task needs. The specialist blocks include the same working contract, so evidence, engineering, and writing standards do not depend on selecting `bary` or any single one. `todo` carries a condensed version of the same standards in its own instruction list.
 
-The twelve library blocks live in `general/`, `stop-the-slop/`, and `examples/academic-proofs/`. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
+The thirteen library blocks live in `general/`, `stop-the-slop/`, and `examples/academic-proofs/`. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
 
 ## Shared contract
 
@@ -24,6 +24,7 @@ Specialist guidance for managing work, evidence, and system design. These deepen
 | [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus deliberate redundancy, single definition per value, code that reads in the order it runs, failure paths, host-enforced trust boundaries, and reversible change. |
 | [colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. |
 | [todo](general/!todo.md) | Scope a task before work starts: objective, inputs, deliverable, acceptance criteria, and filing. Carries date- and version-aware research, primary evidence, bounded retrieval, verification of actual outcomes, and minimum complete artifacts. |
+| [git-repo](general/git-repo.md) | Commit and sync the checked-out branch to its own upstream, adding no workflows or automation along the way: deliberate staging, secrets kept out, messages in the repository's own convention, integration without rewriting published history, and a verified push. |
 
 ## Stop the slop
 

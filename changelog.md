@@ -11,6 +11,7 @@ date it last changed.
 | [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus... | 1.2.0 | September 13, 2026 |
 | [Colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. | 1.1.0 | September 13, 2026 |
 | [TODO](general/!todo.md) | Scope a task before work starts: objective, inputs, deliverable, acceptance criteria, and filing. Carries date- and version-aware research, primary evidence, bounded retrieval, verification of actual outcomes, and minimum complete artifacts. | 1.1.0 | September 14, 2026 |
+| [Git repo](general/git-repo.md) | Commit and sync the checked-out branch to its own upstream, adding no workflows or automation along the way: deliberate staging, secrets kept out, messages in the repository's own convention, integration without rewriting published history, and a verified push. | 1.0.0 | September 16, 2026 |
 
 ## Stop the slop
 
