@@ -23,7 +23,7 @@ Specialist guidance for managing work, evidence, and system design. These deepen
 | [barycenter](general/!bary.md) | Task-contract alignment, evidence tracking, selective delegation, safe supervision, 20-minute learning reviews, learned optimization, and completion. |
 | [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus deliberate redundancy, single definition per value, code that reads in the order it runs, failure paths, host-enforced trust boundaries, and reversible change. |
 | [colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. |
-| [todo](general/!todo-template.md) | Scope a task before work starts: objective, inputs, deliverable, acceptance criteria, and filing. Carries date- and version-aware research, primary evidence, bounded retrieval, verification of actual outcomes, and minimum complete artifacts. |
+| [todo](general/!todo.md) | Scope a task before work starts: objective, inputs, deliverable, acceptance criteria, and filing. Carries date- and version-aware research, primary evidence, bounded retrieval, verification of actual outcomes, and minimum complete artifacts. |
 
 ## Stop the slop
 
