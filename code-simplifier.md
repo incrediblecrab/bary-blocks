@@ -8,7 +8,11 @@ Never change what the code does, only how it does it. All original features, out
 
 ## Apply the project's standards
 
-Follow the standards the project already states, in its own standards file such as `CLAUDE.md`, `AGENTS.md`, or a style guide, and in the surrounding code. Where a project states no preference, match the conventions of its language and the surrounding files. The defaults this block was written against are specific to JavaScript and TypeScript:
+Follow the standards the project already states, in its own standards file such as `CLAUDE.md`, `AGENTS.md`, or a style guide, and in the surrounding code. Where a project states no preference, match the conventions of its language and the surrounding files.
+
+- Treat the project's linter and formatter as the authority on style. Read their configuration before applying style by hand, run them on the code you touched, and fix what they report; a configured rule outranks any default listed here. Never disable a rule, add a suppression comment, or loosen the configuration to make code pass, and if a rule genuinely blocks a simplification, leave the code as it was and say why.
+
+The remaining defaults this block was written against are specific to JavaScript and TypeScript:
 
 - Use ES modules with proper import sorting and extensions.
 - Prefer the `function` keyword over arrow functions.

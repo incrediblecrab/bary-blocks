@@ -40,7 +40,7 @@ Specialist guidance for managing work and evidence. These deepen the shared cont
 | --- | --- |
 | [barycenter](!bary.md) | Scope a task with objective, inputs, deliverable, and acceptance criteria, run it as an analyze/create/evaluate loop driven by an external check, then finish it. Conditional rules cover date- and version-aware research, primary evidence, bounded retrieval, filing, drift, selective delegation, safe supervision, 20-minute reviews, learned optimization, recovery, and integration. |
 | [colors](colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, and the named system, gray, and semantic-role palettes. |
-| [code-simplifier](code-simplifier.md) | Simplify recently modified code without changing behavior: project standards, clarity, and the balance that stops simplification from costing readability. |
+| [code-simplifier](code-simplifier.md) | Simplify recently modified code without changing behavior: the project's linter and stated standards, clarity, and the balance that stops simplification from costing readability. |
 | [git-repo](git-repo.md) | Commit and push the branch you are on, with only the changes related to the work; add no workflows or automation. |
 
 ## Stop the slop
