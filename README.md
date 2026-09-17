@@ -100,7 +100,3 @@ Examples:
 - `mathematics` + `computational-search` + `bary`: search for constructions or bounds and check the resulting artifacts.
 
 Use `bary` when the task needs planning, delegation, or sustained recovery. Give workers only their task context and applicable blocks, not the coordinator's entire prompt. A single theorem, lookup, or small edit does not need a team.
-
-## Credits
-
-[code-simplifier](code-simplifier.md) is adapted from [code-simplifier](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md) in `anthropics/claude-plugins-official`, copyright Anthropic, licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). This repository removes the agent frontmatter, reformats the guidance to the block structure used here, generalizes the project-standards pointer beyond `CLAUDE.md`, and marks the default style list as specific to JavaScript and TypeScript.
