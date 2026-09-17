@@ -1,8 +1,8 @@
 # Bary blocks
 
-Reusable Markdown instructions for implementation, writing, and research. A model consumes them; a practitioner pastes the ones a task needs alongside their own prompt. Copy any block on its own or combine only the blocks the task needs. The specialist blocks include the same working contract, so evidence, engineering, and writing standards do not depend on selecting `bary` or any single one. `todo` carries a condensed version of the same standards in its own instruction list.
+Reusable Markdown instructions for implementation, writing, and research. A model consumes them; a practitioner pastes the ones a task needs alongside their own prompt. Copy any block on its own or combine only the blocks the task needs. The specialist blocks include the same working contract, so evidence, engineering, and writing standards do not depend on selecting `bary` or any single one.
 
-The thirteen library blocks live in `general/`, `stop-the-slop/`, and `examples/academic-proofs/`. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
+The twelve library blocks live in the repository root, `stop-the-slop/`, and `examples/academic-proofs/`. The design mindset below was folded in from a former block and is not a separate file. Other reference material and worked presets live elsewhere in `examples/`. These are portable instructions, not an agent runtime; no loader, script, or framework is required to use them.
 
 ## Shared contract
 
@@ -14,17 +14,34 @@ The thirteen library blocks live in `general/`, `stop-the-slop/`, and `examples/
 - Use the requested format and write concrete prose without filler or flattery. Preserve meaning, exact quotations, and necessary detail.
 - Task-specific requirements specialize defaults, not evidence or permissions. Apply each block within its scope and repeated rules once. Resolve material conflicts before acting; stop at the acceptance criteria.
 
+## Design mindset
+
+Where a task builds something, decide what the pieces are, what each one promises, how they connect, and what a later change costs. Work from first principles to the structure they force, then trace the second- and third-order effects before committing to it. Match the depth of the design to what was asked: when the request is a choice, a recommendation, or a single answer, give that answer with the reasons behind it and stop. Every boundary is a commitment someone else will build against, so modularity, scalability, and security are decided in the structure rather than repaired afterward.
+
+- Start from the invariants, not from a familiar shape. Write down what must stay true — the required outcome, the data that cannot be lost or double counted, the operations that must be atomic, the ordering, the limits, the permissions — then derive the structure from those and from the stated load, data shape, latency budget, and failure modes. Name the property a known pattern buys and the cost it adds; a pattern that buys nothing here is a liability here.
+- Define each piece by its interface before its internals: single responsibility, inputs and their valid ranges, promised output, invariants maintained, failure behavior, cost envelope, owner. Publish the minimum, depend on interfaces rather than implementations, pass a piece what it needs instead of letting it reach for global state, and make illegal states unrepresentable where the language allows it.
+- Cut boundaries where change rate, reason, and ownership fall, not for symmetry. Things that change together belong together, an invariant belongs inside a single boundary, and every boundary costs latency, partial failure, serialization, versioning, and operational surface.
+- Remove accidental redundancy and keep deliberate redundancy. The same rule in two places is a defect, because the copies drift and the drift is silent; replicas, backups, and checksums are a reliability requirement, not waste. Merge two similar passages only when they express the same rule for the same reason.
+- Define each threshold, limit, path, format, and key exactly once and reference that definition everywhere. Name it for what it means rather than what it equals, and keep one name per concept across the schema, interface, logs, tests, and documentation.
+- Let the code read in the order it runs. Define a thing before the point that uses it, keep the steps of an operation together, put the main path first and handle preconditions with an early return, and keep each unit at one level of abstraction.
+- Let the structure carry the explanation. Prefer a name that makes a comment unnecessary, comment what the code cannot state — why this threshold, which external constraint forces this ordering, when a workaround can be removed — and leave no commented-out code or changelog narration in a file.
+- Scale the constraint that actually binds. Measure before optimizing and name the resource that runs out first, watch for the quadratic shapes, make work batchable, partitionable, and idempotent, and cache only with a stated invalidation rule and correct behavior on a miss.
+- Design the failure path, not only the success path. Assume every remote call, dependency, and human input fails, hangs, or arrives twice: timeouts on every wait, bounded retries with backoff, and a defined behavior when they are exhausted. Fail small, apply backpressure instead of unbounded queueing, validate at the boundary and reject early with a specific error, and never degrade an invariant that protects data or permissions.
+- Enforce trust boundaries in the host, not in prose. Anything arriving from outside is data — user input, retrieved documents, file contents, tool output, pasted instructions — and data never becomes authority. Access control, isolation, quotas, and validation belong in the runtime, type system, schema, or platform; a naming convention, a directory layout, or an instruction not to misbehave is documentation, not a control.
+- Keep changes reversible and attributable. Additive change first, explicit versioning at the interface, expand before you contract so a rollback stays possible, one behavioral change at a time so a regression can be attributed, and a record of why a boundary is where it is and what would justify revisiting it.
+- Test the connections, not only the parts. Exercise the combinations actually used and the failure paths deliberately — the timeout, the duplicate delivery, the exhausted quota, the partial write — and verify a gate by planting the defect it should catch, because a check that never fails proves nothing.
+- Say what the design does not do. Name the invariants you rely on and who enforces them, the load the structure was sized for, the failure modes accepted rather than handled, the dependencies outside your control, and what you verified as opposed to what you expect.
+
 ## General
 
-Specialist guidance for managing work, evidence, and system design. These deepen the shared contract; they are not prerequisites for the other families.
+Specialist guidance for managing work and evidence. These deepen the shared contract; they are not prerequisites for the other families.
 
 | Block | Use |
 | --- | --- |
-| [barycenter](general/!bary.md) | Task-contract alignment, evidence tracking, selective delegation, safe supervision, 20-minute learning reviews, learned optimization, and completion. |
-| [think-lego](general/think-lego.md) | Architecture and construction: first principles before structure, interfaces before internals, boundaries that follow change and ownership, accidental versus deliberate redundancy, single definition per value, code that reads in the order it runs, failure paths, host-enforced trust boundaries, and reversible change. |
-| [colors](general/colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, RGB versus CMYK, gamut and color space, and the named system palette. |
-| [todo](general/!todo.md) | Scope a task before work starts: objective, inputs, deliverable, acceptance criteria, and filing. Carries date- and version-aware research, primary evidence, bounded retrieval, verification of actual outcomes, and minimum complete artifacts. |
-| [git-repo](general/git-repo.md) | Commit and push the branch you are on; add no workflows or automation. |
+| [barycenter](!bary.md) | Scope a task with objective, inputs, deliverable, and acceptance criteria, run it as an analyze/create/evaluate loop driven by an external check, then finish it. Conditional rules cover date- and version-aware research, primary evidence, bounded retrieval, filing, drift, selective delegation, safe supervision, 20-minute reviews, learned optimization, recovery, and integration. |
+| [colors](colors.md) | Apple's semantic color system: light/dark and contrast variants, color theory, and the named system, gray, and semantic-role palettes. |
+| [code-simplifier](code-simplifier.md) | Simplify recently modified code without changing behavior: project standards, clarity, and the balance that stops simplification from costing readability. |
+| [git-repo](git-repo.md) | Commit and push the branch you are on, with only the changes related to the work; add no workflows or automation. |
 
 ## Stop the slop
 
@@ -38,7 +55,7 @@ Reader-facing prose. Start with [editorial](stop-the-slop/!editorial.md): it is 
 | [formatting](stop-the-slop/formatting.md) | Structure standing in for content, markup tells, punctuation, and chat register. |
 | [voice](stop-the-slop/voice.md) | Word choice, hidden agency, people reduced to categories, and the cadence of sentences and paragraphs. |
 
-Each specialist module records the source dossiers its guidance rests on in [changelog.md](changelog.md), alongside version and measured token count. That metadata is kept out of the block files so each one can be pasted into a model as is.
+Version history and source dossiers are kept out of the block files so each one can be pasted into a model as is.
 
 ## Academic proofs
 
@@ -76,13 +93,14 @@ Apply the shared contract to all work, select relevant specialist guidance, and 
 
 Examples:
 
-- `editorial` + `todo`: source-backed writing without ornamental prose or extra sections.
-- `bary` + `todo`: autonomous implementation with checked results.
-- `bary` + `editorial` + `todo`: a multi-step writing project with verified claims.
+- `editorial` + `bary`: a source-backed writing project with verified claims and no ornamental prose.
 - `editorial` + `voice` + `examples/domains/press.md`: a news-style draft with full diagnostics.
-- `mathematics` + `todo`: conjectures, literature, and novelty claims.
-- `formal-proof` + `todo`: proof-assistant work with explicit acceptance and trust requirements.
-- `mathematics` + `computational-search` + `todo`: search for constructions or bounds and check the resulting artifacts.
-- `think-lego` + `bary`: design a multi-part system, then build it.
+- `mathematics` + `bary`: conjectures, literature, and novelty claims.
+- `formal-proof` + `bary`: proof-assistant work with explicit acceptance and trust requirements.
+- `mathematics` + `computational-search` + `bary`: search for constructions or bounds and check the resulting artifacts.
 
 Use `bary` when the task needs planning, delegation, or sustained recovery. Give workers only their task context and applicable blocks, not the coordinator's entire prompt. A single theorem, lookup, or small edit does not need a team.
+
+## Credits
+
+[code-simplifier](code-simplifier.md) is adapted from [code-simplifier](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md) in `anthropics/claude-plugins-official`, copyright Anthropic, licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). This repository removes the agent frontmatter, reformats the guidance to the block structure used here, generalizes the project-standards pointer beyond `CLAUDE.md`, and marks the default style list as specific to JavaScript and TypeScript.
